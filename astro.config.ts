@@ -9,7 +9,6 @@ import prefetch from "@astrojs/prefetch";
 export default defineConfig({
 	site: "https://link.com/",
   outDir: 'public',
-  publicDir: 'static',
 	markdown: {
 		shikiConfig: {
 			theme: "dracula",
