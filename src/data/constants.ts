@@ -4,11 +4,15 @@ export const MENU_LINKS = [
 		path: "/",
 	},
 	{
-		title: "About",
-		path: "/about",
+		title: "CV",
+		path: "/cv",
 	},
 	{
 		title: "Blog",
 		path: "/posts",
 	},
+  {
+    title: "Notion",
+    path: "/notion"
+  }
 ];
