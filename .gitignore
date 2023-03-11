@@ -26,3 +26,4 @@ package-lock.json
 *.pem
 .cache
 .astro
+.vercel

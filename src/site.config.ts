@@ -1,10 +1,9 @@
 const siteMeta = {
-	author: "Chris Williams",
-	title: "Astro Theme Cactus",
-	description: "An opinionated starter theme for Astro",
+	author: "Seydali Seydametov",
+	title: "Seydali Made It",
+	description: "Casual blog",
 	lang: "en-GB",
 	ogLocale: "en_GB",
-	githubUrl: "https://github.com/chrismwilliams/astro-theme-cactus",
 	themeColorLight: "#fafafa",
 	themeColorDark: "#1d1f21",
 };

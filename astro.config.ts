@@ -2,13 +2,12 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
 import image from "@astrojs/image";
-import sitemap from "@astrojs/sitemap";
-import prefetch from "@astrojs/prefetch";
+// import sitemap from "@astrojs/sitemap";
+// import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://lydesi.github.io/",
-  base: "astroblog",
+	site: "https://seydalimadeit.github.io/",
 	markdown: {
 		shikiConfig: {
 			theme: "dracula",
@@ -25,8 +24,8 @@ export default defineConfig({
 		image({
 			serviceEntryPoint: "@astrojs/image/sharp",
 		}),
-		sitemap(),
-		prefetch(),
+		// sitemap(),
+		// prefetch(),
 	],
 	vite: {
 		optimizeDeps: {
