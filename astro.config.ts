@@ -32,4 +32,6 @@ export default defineConfig({
 			exclude: ["@resvg/resvg-js"],
 		},
 	},
+	outDir: "public",
+	publicDir: "static",
 });
