@@ -7,7 +7,7 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://seydalimadeit.gitlab.io",
+	site: "https://seydalimadeit.github.io",
 	markdown: {
 		shikiConfig: {
 			theme: "dracula",
@@ -32,6 +32,4 @@ export default defineConfig({
 			exclude: ["@resvg/resvg-js"],
 		},
 	},
-	outDir: "public",
-	publicDir: "static",
 });
